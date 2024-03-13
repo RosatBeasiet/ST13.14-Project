@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Style</title>
+</head>
+<body>
+    <div style="width: 400px; margin: auto;">
+    <h1>Login Form</h1>
+    <hr>
+  <form>
+    <fieldset style="width: 400px;">
+        <legend>User Authentication:</legend>
+        <table>
+            <tr>
+               <td>User Name:</td>
+               <td><input type="text" name="username" required></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" name="password" required></td>
+             </tr>
+             <tr>
+                <td><label for="language">languages:</label></td>
+                <td>
+                    <select name="language" id="language" required>
+                      <option value="">Please select a lenguage!!</option>
+                      <option value="1">Khmer</option>
+                      <option value="2">English</option>
+                      <option value="3">Chinese</option>
+                    </select>
+                </td>
+             </tr>
+             <tr>
+                <td></td>
+                <td>
+                    <button type="submit">Login</button>
+                    <button type="reset">Cancel</button>
+                </td>
+             </tr>
+        </table>
+    </fieldset>
+  </form>
+  </div>
+
+  <h1>Student Registeration</h1>
+  <hr>
+  <form>
+    <table>
+        <tr>
+            <td>First Name</td>
+            <td>: 
+                <input type="text" name="first_name" required>
+            </td>
+            <td>Last Name</td>
+            <td>:
+                <input type="text" name="last_names" required>
+            </td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td>:
+              <label>
+                  <input type="radio" name="gender" value="1">Male   
+              </label>
+              <label>
+                  <input type="radio" name="gender" value="2">Female
+              </label>
+            </td>
+            </td>
+            <td>Come From</td>
+            <td>:
+              <select name="province">
+                <option value="1">Phnom Penh</option>
+                <option value="2">Tbong Khmom</option>
+                <option value="3">Kandal</option>
+              </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td>:
+                <input type="email" name="email" required>
+            </td>
+            <td>Phone</td>
+            <td>:
+                <input type="text" name="phone">
+            </td>
+        </tr>
+        <tr>
+            <td>ID Number</td>
+            <td>:
+                <input type="text" name="id_number">
+            </td>
+        </tr>
+    </table>
+    <fieldset>
+        <legend>Family Information</legend>
+        <table>
+            <tr>
+                <td>Father Name</td>
+                <td>:
+                    <input type="text" name="father_name">
+                </td>
+                <td>Age</td>
+                <td>:
+                    <input type="number" name="age">
+                </td>
+            </tr>
+            <tr>
+                <td>Mother Name</td>
+                <td>:
+                    <input type="text" name="mother_name">
+                </td>
+                <td>Age</td>
+                <td>:
+                    <input type="number" name="age2">
+                </td>
+            </tr>
+            <tr>
+                <td>Father Address</td>
+                <td>:
+                    <input type="text" name="father_address">
+                </td>
+            </tr>
+            <tr>
+                <td>Mother Address</td>
+                <td>:
+                    <input type="text" name="mother_address">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4"><h2>Descripe Your Family</h2> </td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <textarea name="" id="" rows="3"></textarea>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+    <fieldset>
+        <legend>Address</legend>
+        <table>
+            <tr>
+                <td>Province</td>
+                <td>:
+                    <select>
+                        <option value="1">Phnom Penh</option>
+                        <option value="2">Kandal</option>
+                        <option value="3">Tbong kmom</option>
+                    </select>
+                </td>
+                <td>District</td>
+                <td>
+                    <select>
+                        <option value="1">Phnom Penh</option>
+                        <option value="2">Kandal</option>
+                        <option value="3">Tbong kmom</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Commune</td>
+                <td>:
+                    <select>
+                        <option value="1">Phnom Penh</option>
+                        <option value="2">Kandal</option>
+                        <option value="3">Tbong kmom</option>
+                    </select>
+                </td>
+                <td>Village</td>
+                <td>
+                    <select>
+                        <option value="1">Phnom Penh</option>
+                        <option value="2">Kandal</option>
+                        <option value="3">Tbong kmom</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Street No.</td>
+                <td>:
+                    <input type="text" name="streetno">
+                </td>
+                <td>Home No.</td>
+                <td>:
+                    <input type="text" name="homeno">
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+    <br>
+    <button>Register Now</button>
+    <button>Cancel</button>
+  </form>
+</body>
+</html>
