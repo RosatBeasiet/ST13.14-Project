@@ -1,0 +1,40 @@
+
+.body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: pink;
+}    
+.bigmenu{
+    width: 100%;
+    height: 120px;
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    width: 150px;
+    padding-left: 400px;
+}
+.manu ul{
+    list-style: none;
+    display: flex;
+    padding-right: 300px;
+    
+}
+.manu a{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-decoration: none;
+    padding:  30px;
+}
+.card a{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+.manu a:hover{
+    border-bottom: 5px solid white ;
+}
